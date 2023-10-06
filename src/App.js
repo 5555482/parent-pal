@@ -15,12 +15,12 @@ function App() {
         </Button>
       </div>
       <div>
-        <Button secondery outline>
+        <Button secondary outline>
           Hide ads
         </Button>
       </div>
       <div>
-        <Button success rounded outline>
+        <Button primary rounded outline>
           Hi
         </Button>
       </div>
