@@ -1,33 +1,29 @@
 import React from "react";
-import Button from "./Button";
-import { CiAlignLeft, CiDumbbell, CiLineHeight } from "react-icons/ci";
+import ButtonPage from "./pages/ButtonPage";
+import Accordion from "./components/Accordion";
 
 function App() {
+  const items = [
+    {
+      id: "1",
+      label: "React",
+      content: "You can use react on any project"
+    },
+    {
+      id: "2",
+      label: "CSS",
+      content: "You can use react on any project"
+    },
+    {
+      id: "3",
+      label: "HTML",
+      content: "You can use react on any project"
+    }
+  ];
   return (
     <div>
-      <div>
-        <Button success rounded>
-          <CiAlignLeft />
-          Click here
-        </Button>
-      </div>
-      <div>
-        <Button danger rounded outline>
-          <CiDumbbell />
-          Hop
-        </Button>
-      </div>
-      <div>
-        <Button outline secondary>
-          Hide ads
-        </Button>
-      </div>
-      <div>
-        <Button rounded warning outline>
-          <CiLineHeight />
-          Hi
-        </Button>
-      </div>
+      <ButtonPage />
+      <Accordion items={items} />
     </div>
   );
 }
