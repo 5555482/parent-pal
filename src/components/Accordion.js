@@ -2,10 +2,14 @@ import React, { useState } from "react";
 import { CiSquareChevDown, CiSquareChevLeft } from "react-icons/ci";
 
 function Accordion({ items }) {
-  const [expandedIndex, setExpandedIndex] = useState(0);
+  const [expandedIndex, setExpandedIndex] = useState(-1);
 
   const handleClick = index => {
-    setExpandedIndex(index);
+    if (expandedIndex === index) {
+      setExpandedIndex(-1);
+    } else {
+      setExpandedIndex(index);
+    }
   };
 
   const renderedItems = items.map((item, index) => {
