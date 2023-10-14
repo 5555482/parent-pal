@@ -1,4 +1,3 @@
-import React, { Children } from "react";
 import classNames from "classnames";
 
 function Panel({ children, className, ...rest }) {
@@ -9,7 +8,7 @@ function Panel({ children, className, ...rest }) {
 
   return (
     <div {...rest} className={finalClassNames}>
-      {Children}
+      {children}
     </div>
   );
 }
