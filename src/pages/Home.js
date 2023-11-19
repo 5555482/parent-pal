@@ -1,12 +1,12 @@
-import React from 'react'
-import Food from "../components/Food"
-import Popular from "../components/Popular"
+import React from "react";
+import Veggie from "../components/Veggie";
+import Popular from "../components/Popular";
 
 export default function Home() {
   return (
     <div>
-      <Food />
+      <Veggie />
       <Popular />
     </div>
-  )
+  );
 }
