@@ -13,9 +13,12 @@ import { NavLink } from "react-router-dom";
 function Category() {
   return (
     <div className="flex justify-center my-8 mx-0">
-      <NavLink to={"/cuisine/Italian"}>
-        <GiShoppingCart />
-        <h4>Italian</h4>
+      <NavLink
+        className="flex flex-col justify-center items-center rounded-full mr-8 w-24 h-24 bg-slate-700 hover:bg-violet-600 active:bg-violet-700 cursor-pointer scale-75"
+        to={"/cuisine/Italian"}
+      >
+        <GiShoppingCart className="text-white text-lg" />
+        <h4 className="text-white text-base">Italian</h4>
       </NavLink>
       <NavLink to={"/cuisine/American"}>
         <GiBabyBottle />
