@@ -20,29 +20,54 @@ function Recipe() {
   }, [params.id]);
 
   return (
-    <div className=" max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-      <a href="#">
-        <img className="rounded-t-lg" src={details.image} alt="" />
-      </a>
-      <div className="p-5">
+    <div className="flex flex-row items-center justify-between">
+      <div className=" max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
         <a href="#">
-          <h5 className="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">
-            {details.title}
-          </h5>
+          <img className="rounded-t-lg" src={details.image} alt="" />
         </a>
-        <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
-          {details.title}
-        </p>
-        <div className="flex flex-row items-center justify-between">
-          <Button success rounded className="mb-5">
-            <CiAlignLeft />
-            Ingredience
-          </Button>
-          <Button success rounded className="mb-5">
-            Instruction
-          </Button>
+        <div className="p-5">
+          <a href="#">
+            <h5 className="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">
+              {details.title}
+            </h5>
+          </a>
+          <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+            {details.title}
+          </p>
+          <div className="flex flex-row items-center justify-between">
+            <Button
+              success
+              rounded
+              className={activeTab === "ingredience" ? "active" : ""}
+              onClick={() => setActiveTab("ingredience")}
+            >
+              <CiAlignLeft />
+              Ingredience
+            </Button>
+            <Button
+              success
+              rounded
+              className={activeTab === "instruction" ? "active" : ""}
+              onClick={() => setActiveTab("instruction")}
+            >
+              Instruction
+            </Button>
+          </div>
         </div>
       </div>
+      {activeTab === "instruction" && (
+        <div>
+          <h3 dangerouslySetInnerHTML={{ __html: details.summary }}></h3>
+          <h3 dangerouslySetInnerHTML={{ __html: details.instructions }}></h3>
+        </div>
+      )}
+      {activeTab === "ingredience" && (
+        <ul>
+          {details.extendedIngredients.map(i => (
+            <li key={i.id}>{i.original}</li>
+          ))}
+        </ul>
+      )}
     </div>
   );
 }
