@@ -2,26 +2,25 @@ import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import "@splidejs/react-splide/css";
 
-function Cuisine() {
-  const [cuisine, setCuisine] = useState([]);
+function Searched() {
+  const [searchedRecipes, setSearchedRecipes] = useState([]);
   let params = useParams();
 
-  const getCuisine = async name => {
+  const getSearched = async name => {
     const data = await fetch(
-      `https://api.spoonacular.com/recipes/complexSearch?apiKey=${process.env.REACT_APP_API_KEY}&cuisine=${name}`
+      `https://api.spoonacular.com/recipes/complexSearch?apiKey=${process.env.REACT_APP_API_KEY}&query=${name}`
     );
     const recipes = await data.json();
-    setCuisine(recipes.results);
+    setSearchedRecipes(recipes.results);
   };
 
   useEffect(() => {
-    getCuisine(params.type);
-    console.log(params.type);
-  }, [params.type]);
+    getSearched(params.search);
+  }, [params.search]);
 
   return (
     <div className="m-2 grid grid-cols-4 gap-4">
-      {cuisine.map(recipe => {
+      {searchedRecipes.map(recipe => {
         return (
           <div
             key={recipe.id}
@@ -68,4 +67,4 @@ function Cuisine() {
   );
 }
 
-export default Cuisine;
+export default Searched;

@@ -14,23 +14,32 @@ function Category() {
   return (
     <div className="flex justify-center my-8 mx-0">
       <NavLink
-        className="flex flex-col justify-center items-center rounded-full mr-8 w-24 h-24 bg-slate-700 hover:bg-violet-600 active:bg-violet-700 cursor-pointer scale-75"
+        className="flex flex-col justify-center items-center rounded-full mr-8 w-24 h-24 bg-slate-700 hover:bg-orange-500 [&.active]:bg-orange-400 cursor-pointer scale-75"
         to={"/cuisine/Italian"}
       >
-        <GiShoppingCart className="text-white text-lg" />
+        <GiShoppingCart className="text-white text-xl" />
         <h4 className="text-white text-base">Italian</h4>
       </NavLink>
-      <NavLink to={"/cuisine/American"}>
-        <GiBabyBottle />
-        <h4>American</h4>
+      <NavLink
+        className="flex flex-col justify-center items-center rounded-full mr-8 w-24 h-24 bg-slate-700 hover:bg-orange-500 [&.active]:bg-orange-400 cursor-pointer scale-75"
+        to={"/cuisine/American"}
+      >
+        <GiBabyBottle className="text-white text-xl" />
+        <h4 className="text-white text-base">American</h4>
       </NavLink>
-      <NavLink to={"/cuisine/Thai"}>
-        <GiMoon />
-        <h4>Thai</h4>
+      <NavLink
+        className="flex flex-col justify-center items-center rounded-full mr-8 w-24 h-24 bg-slate-700 hover:bg-orange-500 [&.active]:bg-orange-400 cursor-pointer scale-75"
+        to={"/cuisine/Thai"}
+      >
+        <GiMoon className="text-white text-xl" />
+        <h4 className="text-white text-base">Thai</h4>
       </NavLink>
-      <NavLink to={"/cuisine/Italian"}>
-        <GiCuckooClock />
-        <h4>Italian</h4>
+      <NavLink
+        className="flex flex-col justify-center items-center rounded-full mr-8 w-24 h-24 bg-slate-700 hover:bg-orange-500 [&.active]:bg-orange-400 cursor-pointer scale-75"
+        to={"/cuisine/Chinese"}
+      >
+        <GiCuckooClock className="text-white text-xl" />
+        <h4 className="text-white text-base">Chinese</h4>
       </NavLink>
     </div>
   );
