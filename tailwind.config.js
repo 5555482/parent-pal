@@ -9,8 +9,10 @@ module.exports = {
   ],
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
-    fontFamily: {
-      sans: ['"PT Sans"', "sans-serif"]
+    extend: {
+      fontFamily: {
+        tangerine: ["tangerine", "sans-serif"]
+      }
     }
   }
 };

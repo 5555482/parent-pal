@@ -2,9 +2,8 @@ import Pages from "./pages/Pages";
 import Category from "./components/Category";
 import Search from "./components/Search";
 import { BrowserRouter } from "react-router-dom";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { LiaChildSolid } from "react-icons/lia";
-import Link from "./components/Link";
 
 function App() {
   return (

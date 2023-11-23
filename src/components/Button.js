@@ -15,18 +15,23 @@ function Button({
 }) {
   const classes = twMerge(
     className(rest.className, "flex items-center px-3 py-1.5 border", {
-      "border-blue-500 bg-blue-500 text-white": primary,
-      "border-gray-900 bg-gray-900 text-white": secondary,
-      "border-green-500 bg-green-500 text-white": success,
-      "border-yellow-400 bg-yellow-400 text-white": warning,
-      "border-red-500 bg-red-500 text-white": danger,
+      "border-cyan-600 bg-cyan-600 text-white hover:bg-cyan-700 focus:ring-4 focus:outline-none focus:cyan-700 ":
+        primary,
+      "border-warmGray-400 bg-warmGray-400 text-white hover:bg-warmGray-500 focus:ring-4 focus:outline-none focus:warmGray-500 ":
+        secondary,
+      "border-emerald-500 bg-emerald-500 text-white hover:bg-emerald-600 focus:ring-4 focus:outline-none focus:emerald-600":
+        success,
+      "border-orange-300 bg-orange-300 text-white hover:bg-orange-600 focus:ring-4 focus:outline-none focus:orange-600":
+        warning,
+      "border-red-400 bg-red-400 text-white hover:bg-red-600 focus:ring-4 focus:outline-none focus:red-600":
+        danger,
       "rounded-full": rounded,
       "bg-white": outline,
-      "text-blue-500": outline && primary,
-      "text-gray-900": outline && secondary,
-      "text-green-500": outline && success,
-      "text-yellow-400": outline && warning,
-      "text-red-500": outline && danger
+      "text-cyan-600": outline && primary,
+      "text-warmGray-400": outline && secondary,
+      "text-emerald-500": outline && success,
+      "text-orange-300": outline && warning,
+      "text-red-400": outline && danger
     })
   );
   return (
