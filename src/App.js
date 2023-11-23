@@ -10,7 +10,7 @@ function App() {
     <BrowserRouter>
       <div className="px-0 py-16 flex flex-start items-center">
         <LiaChildSolid className="text-2xl text-blue-600" />
-        <Link to={"/"} className="text-base font-serif italic  text-blue-600">
+        <Link to={"/"} className="text-lg font-fun text-blue-600">
           Parent-Pal
         </Link>
       </div>

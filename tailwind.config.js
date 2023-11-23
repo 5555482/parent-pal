@@ -11,7 +11,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        tangerine: ["tangerine", "sans-serif"]
+        fun: ["Lobster Two"]
       }
     }
   }

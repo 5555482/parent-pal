@@ -30,15 +30,9 @@ function Searched() {
             className=" max-w-sm bg-white border border-gray-200 rounded-lg shadow "
           >
             <Link to={"/recipe/" + recipe.id}>
-              <a href="#">
-                <img className="rounded-t-lg" src={recipe.image} alt="" />
-              </a>
+              <img className="rounded-t-lg" src={recipe.image} alt="" />
+
               <div className="p-5">
-                <a href="#">
-                  <h5 className="mb-2 text-xl font-bold tracking-tight text-gray-900 ">
-                    {recipe.title}
-                  </h5>
-                </a>
                 <p className="mb-3 font-normal text-gray-700">{recipe.title}</p>
                 <Button
                   primary
