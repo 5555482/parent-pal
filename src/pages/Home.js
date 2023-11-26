@@ -1,5 +1,5 @@
 import React from "react";
-import Veggie from "../components/Veggie";
+import Place from "../components/Place";
 import Popular from "../components/Popular";
 import { motion } from "framer-motion";
 
@@ -11,7 +11,7 @@ export default function Home() {
       exit={{ opacity: 0 }}
       transition={{ duration: 0.5 }}
     >
-      <Veggie />
+      <Place />
       <Popular />
     </motion.div>
   );

@@ -3,11 +3,11 @@ import { useEffect, useState } from "react";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
 import { Link } from "react-router-dom";
-import Button from "../components/Button";
+import Button from "./Button";
 import { MdOutlineArrowRight } from "react-icons/md";
 import { tipsData } from "../data";
 
-function Food() {
+function Place() {
   // const [veggie, setVeggie] = useState([]);
 
   // useEffect(() => {
@@ -71,4 +71,4 @@ function Food() {
   );
 }
 
-export default Food;
+export default Place;

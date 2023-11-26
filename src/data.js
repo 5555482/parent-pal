@@ -3,7 +3,7 @@ export const tipsData = [
     id: 1,
     popularTip: true,
     place: ["shop", "museum"],
-    title: "Shopping",
+    title: "Shopping with children",
     steps: [
       "1. Put the Child in Charge Have him help make a shopping list and gather groceries to put in the cart. Give her an allowance: “You can bring your dollar to the grocery store in case you see something you want to buy for yourself.” ",
       "2. Offer a Choice “Should we get the spiral pasta or the elbow pasta? You pick!”",
@@ -17,7 +17,7 @@ export const tipsData = [
     id: 2,
     popularTip: false,
     place: ["hospital", "dental surgery"],
-    title: "Doctor",
+    title: "Medicine, shots, blood draws",
     steps: [
       "1. Acknowledge Feelings Instead of, “Come on, it’s not that bad. Just let her do it, and it’ll be over.” Try, “It can be scary to think about someone sticking a needle in your arm.” Instead of, “Don’t cry. You’re a big boy.” Try, “That hurt! You didn’t like that!” ",
       "2. Offer in Fantasy What You Can’t Give in Reality “I wish they could put the medicine inside a lollipop. You’d eat one a day for a week and then you’d never get sick.” ",
@@ -34,7 +34,7 @@ export const tipsData = [
     id: 3,
     popularTip: true,
     place: [],
-    title: "Kid is upset",
+    title: "Troubleshooting-when the tools don't work",
     steps: [
       "1. When a child is too upset to cooperate, go back to Acknowledging Feelings “You don’t even want to think about visiting your friend another time. You were looking forward to going today!” Make sure your tone of voice matches the emotion  “That’s so disappointing!” Try a grunt instead of words  “UGH!” “Mmph!” Put your child’s thoughts into words  “Stupid Legos! They should stick together and stay together!” Tell the story of what happened  “You worked for a long time on that spaceship. You used blue bricks for the base, and red bricks for the lights, and it was almost ready to launch! All it needed was the fins on the rockets. …” ",
       "2. Give your child Time to Recover (and give yourself a break!) “I can see how sad you are. I’ll be in the kitchen making dinner. Come join me when you’re ready.” ",
@@ -49,7 +49,7 @@ export const tipsData = [
     id: 4,
     popularTip: false,
     place: [],
-    title: "Parents get angry",
+    title: "When parents get angry",
     steps: [
       "1. Say It in a Word “CAR!!!”",
       "2. Give Information “BROTHERS ARE NOT FOR KICKING!!”",
@@ -67,9 +67,9 @@ export const tipsData = [
     id: 5,
     popularTip: true,
     place: ["bedroom"],
-    title: "Bed time",
+    title: "Sleep-the holy grain",
     steps: [
-      "Acknowledge Feelings “Sometimes it isn’t easy to fall asleep. It can be scary to lie in bed in the dark.”",
+      "1. Acknowledge Feelings “Sometimes it isn’t easy to fall asleep. It can be scary to lie in bed in the dark.”",
       "2. Be Playful “I need to smooth out these terrible lumps in your bed!” (Press down on legs and arms of child.) ",
       "3. Try Problem-Solving “Let’s see what ideas we can come up with for staying in your bed at night. A special night-light? A picture book by your bed? A recording of songs or stories?” 4. Take Action Without Insult “Mommy and Daddy need to sleep! I’m putting you back in your bed. We’ll play in the morning."
     ],
@@ -98,7 +98,7 @@ export const tipsData = [
     id: 7,
     popularTip: true,
     place: ["car park"],
-    title: "Car parking",
+    title: "Kids who take off in the parking lot and other public places",
     steps: [
       "1. Adjust Expectations: Manage the Environment Instead of the Child Avoid outings that seem like fun but will be more stress than pleasure with a small child. There will be plenty of opportunities to see holiday decorations at the mall or enjoy an outdoor concert by the river when your child is a little bit older. ",
       "2. Acknowledge Your Child’s Feelings “You don’t like it when your hand is squeezed. You want to be free to look around.” ",
@@ -118,7 +118,7 @@ export const tipsData = [
     place: [],
     title: "Food fights",
     steps: [
-      "1 .Resist the urge to … … insist that your child clean his or her plate, eat a specific food, or eat a predetermined amount … offer dessert as a reward for eating healthy food, or withhold it as a punishment for not eating … be a short-order cook … label your child a picky eater. … make food a battleground! Instead you can … ",
+      "1. Resist the urge to … … insist that your child clean his or her plate, eat a specific food, or eat a predetermined amount … offer dessert as a reward for eating healthy food, or withhold it as a punishment for not eating … be a short-order cook … label your child a picky eater. … make food a battleground! Instead you can … ",
       "2. Acknowledge Feelings “Even though you usually like chicken, you’re not in the mood for it tonight.” ",
       "3. Offer Choices Put an empty plate in front of your child and let him serve himself, or ask for what he wants if he’s too young to serve himself.  Serve some of the meal as simple separates so kids can make choices about what they put on their plates.  Offer a simple alternative if kids don’t want the “grown-up” food—peanut butter sandwich, bread and cheese, hard-boiled egg, raw carrots, red pepper.  ",
       "4. Manage the Environment Keep sweets and sugary drinks out of sight. Make it easy to avoid temptation! ",
@@ -132,7 +132,7 @@ export const tipsData = [
     id: 9,
     popularTip: false,
     place: ["friends home"],
-    title: "Friends House",
+    title: "Shy kids-fear of friendly folks",
     steps: [
       "1. Acknowledge Feelings “It can be hard to walk into a new house filled with relatives. Lots of people want to say hello to you. That can feel scary.” ",
       "2. Adjust Expectations: Give a child something to do instead of pressuring him to be social. “You can carry in the chips and put them in the bowl for people to eat.” ",
@@ -147,7 +147,7 @@ export const tipsData = [
     id: 10,
     popularTip: false,
     place: [],
-    title: "Cleanup",
+    title: "Cleanup-the dirtiest word",
     steps: [
       "1. Be Playful (Shoes talking.) “Pretty please, put me in the closet with my friends.” “How many minutes will it take to toss all the Legos into the bucket? You can set the timer. Ready … set … GO!”",
       "2. Offer a Choice “Do you want to be in charge of putting away the books or the cars?”",
@@ -177,9 +177,16 @@ export const tipsData = [
     id: 12,
     popularTip: true,
     place: [],
-    title: "Siblings",
-    steps:
-      "1. Accept Feelings “It can be frustrating to have a baby sister!” 2. Give Wishes in Fantasy: Let the older child pretend to be a baby “Come sit on my lap and be my super baby.” 3. Describe What You See: Notice and appreciate the positive interactions between siblings “You figured out how to cheer up your sister when she was crying.” 4. Put the Child in Charge so that he has an opportunity to see himself differently “Can you pick a board book for the baby? She likes it when you read to her.” 5. Reconnect With Your Child • Plan for Special One-on-One Time “Would you like to make cookies when the baby takes her nap? Or snuggle up and read your pop-up truck book?” • Tell the Older Child Stories About his Baby Days “I remember when you …” 6. Take Action Without Insult: Avoid casting a child in the role of aggressor “We need to separate. I don’t want anyone getting hurt!” 7. Try Problem-Solving: Resist the urge to take sides and don’t minimize the problem! “Jamie wants to build by himself and Kara wants to touch the blocks. This is a tough problem. We need ideas.",
+    title: "Sibling rivalry",
+    steps: [
+      "1. Accept Feelings “It can be frustrating to have a baby sister!”",
+      "2. Give Wishes in Fantasy: Let the older child pretend to be a baby “Come sit on my lap and be my super baby.”",
+      "3. Describe What You See: Notice and appreciate the positive interactions between siblings “You figured out how to cheer up your sister when she was crying.”",
+      "4. Put the Child in Charge so that he has an opportunity to see himself differently “Can you pick a board book for the baby? She likes it when you read to her.”",
+      "5. Reconnect With Your Child • Plan for Special One-on-One Time “Would you like to make cookies when the baby takes her nap? Or snuggle up and read your pop-up truck book?” • Tell the Older Child Stories About his Baby Days “I remember when you …”",
+      "6. Take Action Without Insult: Avoid casting a child in the role of aggressor “We need to separate. I don’t want anyone getting hurt!”",
+      "7. Try Problem-Solving: Resist the urge to take sides and don’t minimize the problem! “Jamie wants to build by himself and Kara wants to touch the blocks. This is a tough problem. We need ideas."
+    ],
     ingredients: "",
     image: require("./pics/1.jpg")
   },
@@ -217,8 +224,14 @@ export const tipsData = [
     popularTip: false,
     place: [],
     title: "Tools for kids who are differently wired",
-    steps:
-      "1. Join Them in Their World “Can I play the Bubble Game with you? Will you show me how?” 2. Take Time to Imagine What Your Child Is Experiencing “So to you, the seams of the socks are very irritating!” 3. Put into Words What Kids Want to Say “You bad old rain! You took away Johnny’s recess!” 4. Adjust Expectations: Manage the Environment Instead of the Child “Let’s take a diaper vacation. We need some time to relax and not worry about peeing in the potty.” 5. Use Alternatives to the Spoken Word: Notes, Checklists, Pictures, Songs, Gestures Tell Them What They Can Do, Instead of What They Can’t “You can throw your stuffed animals.” 7. Be Playful! “It’s time to put away the blocks. I need help from the human wheelbarrow!",
+    steps: [
+      "1. Join Them in Their World “Can I play the Bubble Game with you? Will you show me how?”",
+      "2. Take Time to Imagine What Your Child Is Experiencing “So to you, the seams of the socks are very irritating!”",
+      "3. Put into Words What Kids Want to Say “You bad old rain! You took away Johnny’s recess!”",
+      "4. Adjust Expectations: Manage the Environment Instead of the Child “Let’s take a diaper vacation. We need some time to relax and not worry about peeing in the potty.”",
+      "5. Use Alternatives to the Spoken Word: Notes, Checklists, Pictures, Songs, Gestures Tell Them What They Can Do, Instead of What They Can’t “You can throw your stuffed animals.”",
+      "6. Be Playful! “It’s time to put away the blocks. I need help from the human wheelbarrow!"
+    ],
     ingredients: "",
     image: require("./pics/3.jpg")
   },
@@ -227,8 +240,13 @@ export const tipsData = [
     popularTip: true,
     place: [],
     title: "Tools for resolving conflict",
-    steps:
-      "Express Your Feelings … Strongly! “HEY, I don’t like to see people being pushed!” 2. Show Your Child How to Make Amends “Your sister got scared on the top of the slide. Let’s do something to make her feel better. Do you want to offer her some pretzels? Do you think she’d like to play with your sand bucket?” 3. Offer a Choice “We’re going to give the slide a rest for now. I can see you’re in no mood to wait for a turn. You can swing on the swings or you can play in the sandbox. You decide.” 4. Take Action Without Insult “We’re heading home. We’ll try the playground another day. I’m too worried about children getting hurt right now.” 5. Try Problem-Solving Step One: Acknowledge your child’s feelings “I can see that you don’t like your hand held in the parking lot. It makes your fingers feel squeezed.” Step Two: Describe the problem “The problem is, I worry about cars hitting children in the parking lot.” Step Three: Ask for ideas “We need some ideas so we can go back to the park and have a good time without people getting mad or scared. What can we do?” Step Four: Decide which ideas you both like “So you like the idea of holding on to my sleeve and leading me to the playground. Let’s circle that one.” Step Five: Try out your solutions “Here we are at the parking lot. Grab my sleeve and show me which way to go!",
+    steps: [
+      "1. Express Your Feelings … Strongly! “HEY, I don’t like to see people being pushed!”",
+      "2. Show Your Child How to Make Amends “Your sister got scared on the top of the slide. Let’s do something to make her feel better. Do you want to offer her some pretzels? Do you think she’d like to play with your sand bucket?”",
+      "3. Offer a Choice “We’re going to give the slide a rest for now. I can see you’re in no mood to wait for a turn. You can swing on the swings or you can play in the sandbox. You decide.”",
+      "4. Take Action Without Insult “We’re heading home. We’ll try the playground another day. I’m too worried about children getting hurt right now.”",
+      "5. Try Problem-Solving Step One: Acknowledge your child’s feelings “I can see that you don’t like your hand held in the parking lot. It makes your fingers feel squeezed.” Step Two: Describe the problem “The problem is, I worry about cars hitting children in the parking lot.” Step Three: Ask for ideas “We need some ideas so we can go back to the park and have a good time without people getting mad or scared. What can we do?” Step Four: Decide which ideas you both like “So you like the idea of holding on to my sleeve and leading me to the playground. Let’s circle that one.” Step Five: Try out your solutions “Here we are at the parking lot. Grab my sleeve and show me which way to go!"
+    ],
     ingredients: "",
     image: require("./pics/4.jpg")
   },
