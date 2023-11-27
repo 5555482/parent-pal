@@ -4,6 +4,7 @@ import "@splidejs/react-splide/css";
 import { Link } from "react-router-dom";
 import Button from "../components/Button";
 import { MdOutlineArrowRight } from "react-icons/md";
+import { tipsData } from "../data";
 
 function Searched() {
   const [searchedRecipes, setSearchedRecipes] = useState([]);
@@ -23,30 +24,40 @@ function Searched() {
 
   return (
     <div className="m-2 grid grid-cols-4 gap-4">
-      {searchedRecipes.map(recipe => {
-        return (
-          <div
-            key={recipe.id}
-            className=" max-w-sm bg-white border border-gray-200 rounded-lg shadow "
-          >
-            <Link to={"/recipe/" + recipe.id}>
-              <img className="rounded-t-lg" src={recipe.image} alt="" />
+      {tipsData
+        .filter(
+          recipe =>
+            recipe.title.includes(params.search) ||
+            recipe.place.indexOf(params.search) > -1 ||
+            recipe.searchWords.indexOf(params.search) > -1 ||
+            recipe.summary.includes(params.search)
+        )
+        .map(recipe => {
+          return (
+            <div
+              key={recipe.id}
+              className=" max-w-sm bg-white border border-gray-200 rounded-lg shadow "
+            >
+              <Link to={"/recipe/" + recipe.id}>
+                <img className="rounded-t-lg" src={recipe.image} alt="" />
 
-              <div className="p-5">
-                <p className="mb-3 font-normal text-gray-700">{recipe.title}</p>
-                <Button
-                  primary
-                  rounded
-                  className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white rounded-lg hover:bg-cyan-700 focus:ring-4 focus:outline-none focus:cyan-700 "
-                >
-                  Read more
-                  <MdOutlineArrowRight />
-                </Button>
-              </div>
-            </Link>
-          </div>
-        );
-      })}
+                <div className="p-5">
+                  <p className="mb-3 font-normal text-gray-700">
+                    {recipe.title}
+                  </p>
+                  <Button
+                    primary
+                    rounded
+                    className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white rounded-lg hover:bg-cyan-700 focus:ring-4 focus:outline-none focus:cyan-700 "
+                  >
+                    Read more
+                    <MdOutlineArrowRight />
+                  </Button>
+                </div>
+              </Link>
+            </div>
+          );
+        })}
     </div>
   );
 }

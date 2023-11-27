@@ -2,8 +2,22 @@ export const tipsData = [
   {
     id: 1,
     popularTip: true,
-    place: ["shop", "museum"],
+    place: ["shop", "museum", "market", "grocery store"],
+    searchWords: [
+      "shop",
+      "museum",
+      "market",
+      "list",
+      "shopping list",
+      "cart",
+      "present",
+      "food",
+      "wish list",
+      "carpark"
+    ],
     title: "Shopping with children",
+    summary:
+      "It seems like I spend a major part of my life telling Benjamin he can’t have something he’s begging for. Every time we go to the grocery store. Every time we have to buy a birthday present for another kid. I used to like shopping. Now I wish I could avoid it altogether.",
     steps: [
       "1. Put the Child in Charge Have him help make a shopping list and gather groceries to put in the cart. Give her an allowance: “You can bring your dollar to the grocery store in case you see something you want to buy for yourself.” ",
       "2. Offer a Choice “Should we get the spiral pasta or the elbow pasta? You pick!”",
@@ -11,13 +25,24 @@ export const tipsData = [
       "4. Give Information—Let Children Know What to Expect “We’re going shopping for Elena’s birthday present today. Let’s bring the wish list in case you see something you’d like for yourself."
     ],
     ingredients: "",
-    image: require("./pics/17.jpg")
+    image: require("./pics/nursery.jpg")
   },
   {
     id: 2,
     popularTip: false,
-    place: ["hospital", "dental surgery"],
+    place: ["hospital", "dental surgery", "doctor", "home"],
+    searchWords: [
+      "hospital",
+      "dental surgery",
+      "doctor",
+      "choice",
+      "injections",
+      "germs",
+      "medicine"
+    ],
     title: "Medicine, shots, blood draws",
+    summary:
+      "“Ever since Thomas had his five-year checkup, I’ve been dreading the day the twins have theirs,” Toni sighed. “It was horrible. Two injections. After the first one Thomas was screaming and pulling away from the nurse. She kept yelling at me, ‘Hold him still!’ I wrapped my arms around him while she gave him the second shot. He was so angry afterward he wouldn’t talk to me for hours. I felt like I betrayed him. But what was I supposed to do?",
     steps: [
       "1. Acknowledge Feelings Instead of, “Come on, it’s not that bad. Just let her do it, and it’ll be over.” Try, “It can be scary to think about someone sticking a needle in your arm.” Instead of, “Don’t cry. You’re a big boy.” Try, “That hurt! You didn’t like that!” ",
       "2. Offer in Fantasy What You Can’t Give in Reality “I wish they could put the medicine inside a lollipop. You’d eat one a day for a week and then you’d never get sick.” ",
@@ -34,7 +59,22 @@ export const tipsData = [
     id: 3,
     popularTip: true,
     place: [],
+    searchWords: [
+      "disappointing",
+      "recover",
+      "time",
+      "choice",
+      "basics",
+      "shop",
+      "hospital",
+      "dental surgery",
+      "doctor",
+      "home"
+    ],
     title: "Troubleshooting-when the tools don't work",
+    summary:
+      "It seems like I spend a major part of my life telling Benjamin he can’t have something he’s begging for. Every time we go to the grocery store. Every time we have to buy a birthday present for another kid. I used to like shopping. Now I wish I could avoid it altogether.",
+
     steps: [
       "1. When a child is too upset to cooperate, go back to Acknowledging Feelings “You don’t even want to think about visiting your friend another time. You were looking forward to going today!” Make sure your tone of voice matches the emotion  “That’s so disappointing!” Try a grunt instead of words  “UGH!” “Mmph!” Put your child’s thoughts into words  “Stupid Legos! They should stick together and stay together!” Tell the story of what happened  “You worked for a long time on that spaceship. You used blue bricks for the base, and red bricks for the lights, and it was almost ready to launch! All it needed was the fins on the rockets. …” ",
       "2. Give your child Time to Recover (and give yourself a break!) “I can see how sad you are. I’ll be in the kitchen making dinner. Come join me when you’re ready.” ",
@@ -49,7 +89,21 @@ export const tipsData = [
     id: 4,
     popularTip: false,
     place: [],
+    searchWords: [
+      "disappointing",
+      "hurt",
+      "help",
+      "recover",
+      "time",
+      "choice",
+      "moment",
+      "anger",
+      "shop",
+      "home"
+    ],
     title: "When parents get angry",
+    summary:
+      "Anton has a love-hate relationship with Legos. He adores them, but his fine motor control is not very good, so he can get enormously frustrated. He moans and cries and throws things when something he’s been working on falls apart.",
     steps: [
       "1. Say It in a Word “CAR!!!”",
       "2. Give Information “BROTHERS ARE NOT FOR KICKING!!”",
@@ -66,12 +120,25 @@ export const tipsData = [
   {
     id: 5,
     popularTip: true,
-    place: ["bedroom"],
+    place: ["bedroom", "bed"],
+    searchWords: [
+      "bedroom",
+      "bed",
+      "asleep",
+      "night",
+      "time",
+      "song",
+      "story",
+      "home"
+    ],
     title: "Sleep-the holy grain",
+    summary:
+      "When Shiriel was two and a half, she’d climb into bed without protest. But the minute I left, she’d pop back up. She needed water, or she heard a funny sound, or she forgot to tell me something. She wanted me to stay until she fell asleep.",
     steps: [
       "1. Acknowledge Feelings “Sometimes it isn’t easy to fall asleep. It can be scary to lie in bed in the dark.”",
       "2. Be Playful “I need to smooth out these terrible lumps in your bed!” (Press down on legs and arms of child.) ",
-      "3. Try Problem-Solving “Let’s see what ideas we can come up with for staying in your bed at night. A special night-light? A picture book by your bed? A recording of songs or stories?” 4. Take Action Without Insult “Mommy and Daddy need to sleep! I’m putting you back in your bed. We’ll play in the morning."
+      "3. Try Problem-Solving “Let’s see what ideas we can come up with for staying in your bed at night. A special night-light? A picture book by your bed? A recording of songs or stories?”",
+      "4. Take Action Without Insult “Mommy and Daddy need to sleep! I’m putting you back in your bed. We’ll play in the morning."
     ],
 
     ingredients: "",
@@ -81,7 +148,24 @@ export const tipsData = [
     id: 6,
     popularTip: false,
     place: [],
+    searchWords: [
+      "Hitting",
+      "pinching",
+      "poking",
+      "punching",
+      "pushing",
+      "choice",
+      "moment",
+      "house",
+      "rule",
+      "hospital",
+      "dental surgery",
+      "doctor",
+      "home"
+    ],
     title: "Hitting, pinching, poking, punching, pushing",
+    summary:
+      "Anton used to adore his little brother, but now that Luke’s two he’s getting into Anton’s toys and Anton gets furious. He’s starting to use his fists.",
     steps: [
       "1. Take Action Without Insult Make everybody safe  “We need to separate!” Attend to injuries  “Let me kiss that bump. Do you want a piece of ice for your head?” ",
       "2. Express Your Feelings Strongly “I don’t like seeing Isabel hurt!” “That makes me very upset!” ",
@@ -97,8 +181,23 @@ export const tipsData = [
   {
     id: 7,
     popularTip: true,
-    place: ["car park"],
+    place: ["car park", "playground", "park"],
+    searchWords: [
+      "parking",
+      "playground",
+      "park",
+      "drive",
+      "ride",
+      "action",
+      "swing",
+      "slide",
+      "rule",
+      "shop",
+      "carpark"
+    ],
     title: "Kids who take off in the parking lot and other public places",
+    summary:
+      "If I lose one of these kids my wife is going to have my head on a plate. I was doing pretty well keeping track of Jamie, but now Kara’s getting speedy, too. Sometimes they dart off in two different directions in the parking lot. I need a clone of myself to keep track of them both. Or maybe a drone to track them from overhead.",
     steps: [
       "1. Adjust Expectations: Manage the Environment Instead of the Child Avoid outings that seem like fun but will be more stress than pleasure with a small child. There will be plenty of opportunities to see holiday decorations at the mall or enjoy an outdoor concert by the river when your child is a little bit older. ",
       "2. Acknowledge Your Child’s Feelings “You don’t like it when your hand is squeezed. You want to be free to look around.” ",
@@ -116,7 +215,21 @@ export const tipsData = [
     id: 8,
     popularTip: false,
     place: [],
+    searchWords: [
+      "food",
+      "fights",
+      "plate",
+      "table",
+      "eat",
+      "lunch",
+      "breakfast",
+      "dinner",
+      "taste",
+      "home"
+    ],
     title: "Food fights",
+    summary:
+      "Benjamin is on the white-food diet. All he wants to eat is pasta, bread, and vanilla ice cream. When I grew up you ate what your mother put in front of you.",
     steps: [
       "1. Resist the urge to … … insist that your child clean his or her plate, eat a specific food, or eat a predetermined amount … offer dessert as a reward for eating healthy food, or withhold it as a punishment for not eating … be a short-order cook … label your child a picky eater. … make food a battleground! Instead you can … ",
       "2. Acknowledge Feelings “Even though you usually like chicken, you’re not in the mood for it tonight.” ",
@@ -131,8 +244,22 @@ export const tipsData = [
   {
     id: 9,
     popularTip: false,
-    place: ["friends home"],
+    place: ["friends home", "house", "home"],
+    searchWords: [
+      "friend",
+      "friendly",
+      "fear",
+      "house",
+      "relatives",
+      "social",
+      "chat",
+      "meeting",
+      "join",
+      "home"
+    ],
     title: "Shy kids-fear of friendly folks",
+    summary:
+      "No matter how much I try to explain to Anton that he has to look up and say hello when people greet him, he just can’t bear to do it. But I hate how rude it looks when he refuses to acknowledge people. And it’s not just that. I want him to think about how other people feel, too.",
     steps: [
       "1. Acknowledge Feelings “It can be hard to walk into a new house filled with relatives. Lots of people want to say hello to you. That can feel scary.” ",
       "2. Adjust Expectations: Give a child something to do instead of pressuring him to be social. “You can carry in the chips and put them in the bowl for people to eat.” ",
@@ -147,12 +274,30 @@ export const tipsData = [
     id: 10,
     popularTip: false,
     place: [],
+    searchWords: [
+      "clean",
+      "choice",
+      "hook",
+      "house",
+      "belong",
+      "floor",
+      "book",
+      "toy",
+      "join",
+      "home"
+    ],
     title: "Cleanup-the dirtiest word",
+    summary:
+      "So how do you get them to clean up after themselves? I’m starting to get resentful. Last night I spent half an hour haranguing Anton to clean up his blocks before bedtime, and then I finally did it for him. About ten minutes later he dumped the whole bag out on the floor again. I was ready to throttle him!",
     steps: [
       "1. Be Playful (Shoes talking.) “Pretty please, put me in the closet with my friends.” “How many minutes will it take to toss all the Legos into the bucket? You can set the timer. Ready … set … GO!”",
       "2. Offer a Choice “Do you want to be in charge of putting away the books or the cars?”",
       "3. Write a Note “Please hang me on the hook. Love, Your Coat.” ",
-      "4. Describe What You See “I see orange peels on the floor.” 5. Give Information “Peels belong in the compost.” 6. Say It with a Word “Coat!” “Peels!” “Shoes!” 7. Describe Progress “You got that whole pile of dirty laundry in the basket! All that’s left to put away are the cars and books.” 8. Describe What You See with Appreciation “Wow, look at this big cleanup you did. The floor was covered with dirty laundry and train tracks, and now it’s a pleasure to walk on!"
+      "4. Describe What You See “I see orange peels on the floor.”",
+      "5. Give Information “Peels belong in the compost.”",
+      "6. Say It with a Word “Coat!” “Peels!” “Shoes!”",
+      " 7. Describe Progress “You got that whole pile of dirty laundry in the basket! All that’s left to put away are the cars and books.”",
+      "8. Describe What You See with Appreciation “Wow, look at this big cleanup you did. The floor was covered with dirty laundry and train tracks, and now it’s a pleasure to walk on!"
     ],
     ingredients: "",
     image: require("./pics/23.jpg")
@@ -161,7 +306,10 @@ export const tipsData = [
     id: 11,
     popularTip: false,
     place: [],
+    searchWords: ["lies", "story", "imagination", "problem"],
     title: "Lies",
+    summary:
+      "Last week I caught Jenna with chocolate all over her face. When I asked her if she’d eaten the cake, she completely denied it. She knew she wasn’t allowed to touch it. ",
     steps: [
       "1. Describe What You See: Instead of asking or accusing, state the obvious. “I see chocolate on your face.”",
       "2. Describe How You Feel “I’m upset that the cake was eaten! I was going to serve it for dessert when our friends come for dinner tonight!”",
@@ -177,7 +325,10 @@ export const tipsData = [
     id: 12,
     popularTip: true,
     place: [],
+    searchWords: ["baby", "sister", "brother", "sibling", "home"],
     title: "Sibling rivalry",
+    summary:
+      "Benjamin has never accepted Isabel. He gets angry at the sight of her. He’s always telling us to give the baby back because her diaper smells and she yells too much.",
     steps: [
       "1. Accept Feelings “It can be frustrating to have a baby sister!”",
       "2. Give Wishes in Fantasy: Let the older child pretend to be a baby “Come sit on my lap and be my super baby.”",
@@ -194,7 +345,10 @@ export const tipsData = [
     id: 13,
     popularTip: false,
     place: [],
+    searchWords: ["morning", "madness", "timer", "time", "bed", "home"],
     title: "Morning madness",
+    summary:
+      "“Sometimes I try counting down. I tell him, ‘If you don’t start getting dressed I’m going to dress you on three. One … two …’ I know, I know, we’re not supposed to threaten. Anyway it doesn’t even work. He runs away and hides … in small hard-to-reach places, let me tell you.",
     steps: [
       "1. Be Playful (Shoe talking.) “I don’t want that foot in me. Nooooo!” (Parent talking.) “You’d better get on Luke’s foot right now. You’re making him late!”",
       "2. Offer a Choice “Do you want to walk to the car the regular way or backward?”",
@@ -209,7 +363,10 @@ export const tipsData = [
     id: 14,
     popularTip: false,
     place: [],
+    searchWords: ["praise", "effort", "progress", "time"],
     title: "Tools for praise and appreciation",
+    summary:
+      "I tried starting a conversation, and I almost got more than I bargained for. Jamie showed me one of his animal drawings and instead of the usual “Very nice,” I said, “Oh, look at this! It makes me think of how much you like dogs.” ",
     steps: [
       "1. Describe What You See “I see green lines that are zooming up and down the page. And look how they connect all these red shapes!”",
       "2. Describe the Effect on Others “The baby loves it when you make those funny sounds. I see a big smile on her face.”",
@@ -223,7 +380,10 @@ export const tipsData = [
     id: 15,
     popularTip: false,
     place: [],
+    searchWords: ["game", "friend", "progress", "environment", "play"],
     title: "Tools for kids who are differently wired",
+    summary:
+      "Henry is very logical. He doesn’t respond to silliness or fantasy. He spends a lot of time playing alone with his train set and he doesn’t like to be interrupted. ",
     steps: [
       "1. Join Them in Their World “Can I play the Bubble Game with you? Will you show me how?”",
       "2. Take Time to Imagine What Your Child Is Experiencing “So to you, the seams of the socks are very irritating!”",
@@ -239,7 +399,10 @@ export const tipsData = [
     id: 16,
     popularTip: true,
     place: [],
+    searchWords: ["conflict", "scared", "hurt", "environment"],
     title: "Tools for resolving conflict",
+    summary:
+      "Jamie and Kara get into a lot of conflicts, which almost always end up with Kara crying. Of course, she’s only two and Jamie is four, so there’s really no contest. Jan and I used to remind him constantly that Kara is just a baby and he needs to be patient with her. Jamie doesn’t want to hear it.",
     steps: [
       "1. Express Your Feelings … Strongly! “HEY, I don’t like to see people being pushed!”",
       "2. Show Your Child How to Make Amends “Your sister got scared on the top of the slide. Let’s do something to make her feel better. Do you want to offer her some pretzels? Do you think she’d like to play with your sand bucket?”",
@@ -254,7 +417,18 @@ export const tipsData = [
     id: 17,
     popularTip: true,
     place: [],
+    searchWords: [
+      "cooperation",
+      "game",
+      "time",
+      "timer",
+      "car",
+      "park",
+      "carpark"
+    ],
     title: "Tools for engaging cooperation",
+    summary:
+      "Ever since I had a second child it’s been like Cain and Abel in my house. When Benjamin hurts Isabel I go crazy. I usually start yelling whatever comes into my head. “Don’t shove your sister! She’s just a baby! You hurt her! That’s mean!”",
     steps: [
       "1. Be Playful • Make it a game. “Can we get all the cars into the box before the timer beeps? Ready … set … go!” • Make inanimate objects talk. “I’m an empty sock. I need a foot in me!” • Use silly voices and accents. “I … am … your … robot … Must … buckle … seat … belt … now.” • Pretend! “We need to climb this slippery mountain into the carseat.” • Play the incompetent fool. “Oh dear, where does this sleeve go? Over your head? No? On the arm? This is so confusing! Thank you for helping me!”",
       "2. Offer a Choice “Do you want to hop to the tub like a bunny, or crawl to the tub like a crab?”",
@@ -269,30 +443,15 @@ export const tipsData = [
     ingredients: "",
     image: require("./pics/5.jpg")
   },
+
   {
     id: 18,
-    popularTip: false,
-    place: [],
-    title: "Tools for resolving conflict",
-    steps: [
-      "1. Be Playful • Make it a game. “Can we get all the cars into the box before the timer beeps? Ready … set … go!” • Make inanimate objects talk. “I’m an empty sock. I need a foot in me!” • Use silly voices and accents. “I … am … your … robot … Must … buckle … seat … belt … now.” • Pretend! “We need to climb this slippery mountain into the carseat.” • Play the incompetent fool. “Oh dear, where does this sleeve go? Over your head? No? On the arm? This is so confusing! Thank you for helping me!”",
-      "2. Offer a Choice “Do you want to hop to the tub like a bunny, or crawl to the tub like a crab?”",
-      "3. Put the Child in Charge “Johnny, would you set the timer and let us know when it’s time to leave?”",
-      "4. Give Information “Tissues go in the trash.”",
-      "5. Say It with a Word (or a Gesture) “Trash!”",
-      "6. Describe What You See “I see most of the blocks put away in the toy box. There are only a few blocks left to go.”",
-      "7. Describe How You Feel “I don’t like food thrown on the floor.”",
-      "8. Write a Note “Put me on your head before riding. Love, your bike helmet.”",
-      "9. Take Action Without Insult “I’m putting the paint away for now. I can’t let you splatter the other kids."
-    ],
-    ingredients: "",
-    image: require("./pics/6.jpg")
-  },
-  {
-    id: 19,
     popularTip: true,
     place: [],
+    searchWords: ["emotions", "game", "sad", "upset", "car", "park"],
     title: "Tools for handling emotions",
+    summary:
+      "My seven-year-old daughter came in just before bedtime to complain about her younger brother … again. I have very little patience left at this time of night. All I can think is “Can’t it be over?”",
     steps: [
       "1. Acknowledge Feelings with Words “You were looking forward to that playdate. How disappointing!” “It can be so frustrating when train tracks fall apart.”",
       "2. Acknowledge Feelings with Writing “Oh no! We don’t have the ingredients we need! Let’s make a shopping list.” “You really want that underwater Lego set. Let’s write that down on your wish list.”",

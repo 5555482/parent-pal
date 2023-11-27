@@ -30,9 +30,10 @@ function Popular() {
   return (
     <div className="m-2">
       <h3 className="my-4">Popular Picks</h3>
+
       <Splide
         options={{
-          perPage: 4,
+          perPage: 3,
           arrows: false,
           pagination: false,
           drag: "free",
