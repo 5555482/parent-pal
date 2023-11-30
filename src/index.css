@@ -18,6 +18,12 @@ body {
 -moz-osx-font-smoothing: grayscale;
   margin: 0% 20%;
 }
+
+@media (max-width: 600px){
+	body {
+		margin: 0% 10% !important;
+	}
+}
 code {
   font-family: source-code-pro, Menlo, Monaco,C onsolas,"Courier New",monospace;
 }

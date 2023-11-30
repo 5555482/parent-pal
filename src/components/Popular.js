@@ -34,6 +34,17 @@ function Popular() {
       <Splide
         options={{
           perPage: 3,
+          breakpoints: {
+            1024: {
+              perPage: 2
+            },
+            767: {
+              perPage: 1
+            },
+            640: {
+              perPage: 1
+            }
+          },
           arrows: false,
           pagination: false,
           drag: "free",
