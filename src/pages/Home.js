@@ -1,5 +1,4 @@
 import React from "react";
-import Place from "../components/Place";
 import Popular from "../components/Popular";
 import { motion } from "framer-motion";
 

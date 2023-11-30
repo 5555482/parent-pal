@@ -115,7 +115,7 @@ export const tipsData = [
       "8. Seek help if you feel the anger is too much.” "
     ],
     ingredients: "",
-    image: require("./pics/5.png")
+    image: require("./pics/18.png")
   },
   {
     id: 5,
@@ -209,7 +209,7 @@ export const tipsData = [
     ],
 
     ingredients: "",
-    image: require("./pics/14.png")
+    image: require("./pics/15.png")
   },
   {
     id: 8,
@@ -460,6 +460,6 @@ export const tipsData = [
       "5. Acknowledge Feelings with (Almost) Silent Attention “Ugh!” “Mmm.” “Ooh.” “Huh."
     ],
     ingredients: "",
-    image: require("./pics/20.png")
+    image: require("./pics/2.png")
   }
 ];
