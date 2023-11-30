@@ -25,7 +25,7 @@ export const tipsData = [
       "4. Give Information—Let Children Know What to Expect “We’re going shopping for Elena’s birthday present today. Let’s bring the wish list in case you see something you’d like for yourself."
     ],
     ingredients: "",
-    image: require("./pics/nursery.jpg")
+    image: require("./pics/1.png")
   },
   {
     id: 2,
@@ -53,7 +53,7 @@ export const tipsData = [
       "7. Take Action Without Insult “I’m going to hold you on my lap while the doctor gives you the injection. I know you don’t like this.” "
     ],
     ingredients: "",
-    image: require("./pics/16.jpg")
+    image: require("./pics/10.png")
   },
   {
     id: 3,
@@ -83,7 +83,7 @@ export const tipsData = [
       "5. Check on “The Basics” Is your child lacking food or sleep, or sleep, or feeling overwhelmed? Is your child developmentally ready to do what you’re expecting?"
     ],
     ingredients: "",
-    image: require("./pics/4.jpg")
+    image: require("./pics/4.png")
   },
   {
     id: 4,
@@ -115,7 +115,7 @@ export const tipsData = [
       "8. Seek help if you feel the anger is too much.” "
     ],
     ingredients: "",
-    image: require("./pics/22.jpg")
+    image: require("./pics/5.png")
   },
   {
     id: 5,
@@ -142,7 +142,7 @@ export const tipsData = [
     ],
 
     ingredients: "",
-    image: require("./pics/25.jpg")
+    image: require("./pics/3.png")
   },
   {
     id: 6,
@@ -176,7 +176,7 @@ export const tipsData = [
     ],
     ingredients: "",
 
-    image: require("./pics/16.jpg")
+    image: require("./pics/13.png")
   },
   {
     id: 7,
@@ -209,7 +209,7 @@ export const tipsData = [
     ],
 
     ingredients: "",
-    image: require("./pics/10.jpg")
+    image: require("./pics/14.png")
   },
   {
     id: 8,
@@ -239,7 +239,7 @@ export const tipsData = [
       "6. Give Information Let kids know that “tastes change,” so they don’t feel stuck with their limited palate. Tell them, “You might want to give this a try when you’re ready."
     ],
     ingredients: "",
-    image: require("./pics/8.jpg")
+    image: require("./pics/9.png")
   },
   {
     id: 9,
@@ -268,7 +268,7 @@ export const tipsData = [
       "5. Put the Child in Charge “Jamie will join you when he’s ready."
     ],
     ingredients: "",
-    image: require("./pics/6.jpg")
+    image: require("./pics/7.png")
   },
   {
     id: 10,
@@ -300,7 +300,7 @@ export const tipsData = [
       "8. Describe What You See with Appreciation “Wow, look at this big cleanup you did. The floor was covered with dirty laundry and train tracks, and now it’s a pleasure to walk on!"
     ],
     ingredients: "",
-    image: require("./pics/23.jpg")
+    image: require("./pics/21.png")
   },
   {
     id: 11,
@@ -319,7 +319,7 @@ export const tipsData = [
       "6. Help the Child Make Amends “We’re going to need something for dessert when our friends come over. Can you get out some cookies and arrange them nicely on a plate?"
     ],
     ingredients: "",
-    image: require("./pics/20.jpg")
+    image: require("./pics/23.png")
   },
   {
     id: 12,
@@ -339,7 +339,7 @@ export const tipsData = [
       "7. Try Problem-Solving: Resist the urge to take sides and don’t minimize the problem! “Jamie wants to build by himself and Kara wants to touch the blocks. This is a tough problem. We need ideas."
     ],
     ingredients: "",
-    image: require("./pics/1.jpg")
+    image: require("./pics/24.png")
   },
   {
     id: 13,
@@ -357,7 +357,7 @@ export const tipsData = [
       "5. Acknowledge Feelings “It isn’t easy to get out of a warm, cozy bed. It’s nice to snuggle for a few more minutes!"
     ],
     ingredients: "",
-    image: require("./pics/15.jpg")
+    image: require("./pics/12.png")
   },
   {
     id: 14,
@@ -374,7 +374,7 @@ export const tipsData = [
       "4. Describe Progress “You sounded out each of the letters and you put them together. You read a whole sentence!"
     ],
     ingredients: "",
-    image: require("./pics/13.jpg")
+    image: require("./pics/18.png")
   },
   {
     id: 15,
@@ -393,7 +393,7 @@ export const tipsData = [
       "6. Be Playful! “It’s time to put away the blocks. I need help from the human wheelbarrow!"
     ],
     ingredients: "",
-    image: require("./pics/3.jpg")
+    image: require("./pics/4.png")
   },
   {
     id: 16,
@@ -411,7 +411,7 @@ export const tipsData = [
       "5. Try Problem-Solving Step One: Acknowledge your child’s feelings “I can see that you don’t like your hand held in the parking lot. It makes your fingers feel squeezed.” Step Two: Describe the problem “The problem is, I worry about cars hitting children in the parking lot.” Step Three: Ask for ideas “We need some ideas so we can go back to the park and have a good time without people getting mad or scared. What can we do?” Step Four: Decide which ideas you both like “So you like the idea of holding on to my sleeve and leading me to the playground. Let’s circle that one.” Step Five: Try out your solutions “Here we are at the parking lot. Grab my sleeve and show me which way to go!"
     ],
     ingredients: "",
-    image: require("./pics/4.jpg")
+    image: require("./pics/17.png")
   },
   {
     id: 17,
@@ -441,7 +441,7 @@ export const tipsData = [
       "9. Take Action Without Insult “I’m putting the paint away for now. I can’t let you splatter the other kids."
     ],
     ingredients: "",
-    image: require("./pics/5.jpg")
+    image: require("./pics/16.png")
   },
 
   {
@@ -460,6 +460,6 @@ export const tipsData = [
       "5. Acknowledge Feelings with (Almost) Silent Attention “Ugh!” “Mmm.” “Ooh.” “Huh."
     ],
     ingredients: "",
-    image: require("./pics/7.jpg")
+    image: require("./pics/20.png")
   }
 ];
