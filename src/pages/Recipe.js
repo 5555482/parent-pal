@@ -34,9 +34,9 @@ function Recipe() {
             <div>
               <div className="relative p-4 w-full max-w-full max-h-full max-[600px]:p-1">
                 {/* <div className="relative bg-white rounded-lg shadow "> */}
-                {/* <div className="items-center justify-between p-4 md:p-5 border-b rounded-t "> */}
+                {/* <div className="flex items-center justify-between p-4 md:p-5 border-b rounded-t "> */}
                 <img
-                  className="h-auto max-w-xs rounded-lg mx-0"
+                  className="h-auto max-w-xs rounded-lg mx-0 float-left"
                   src={recipe.image}
                   alt=""
                 />
