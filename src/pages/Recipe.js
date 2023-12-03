@@ -31,8 +31,8 @@ function Recipe() {
         .filter(recipe => recipe.id == params.id)
         .map(recipe => {
           return (
-            <div>
-              <div className="relative p-4 w-full max-w-full max-h-full max-[600px]:p-1">
+            <div key={recipe.id}>
+              <div className="relative p-4 w-full max-w-full max-h-full max-[640px]:p-1">
                 {/* <div className="relative bg-white rounded-lg shadow "> */}
                 {/* <div className="flex items-center justify-between p-4 md:p-5 border-b rounded-t "> */}
                 <img
@@ -41,10 +41,10 @@ function Recipe() {
                   alt=""
                 />
                 {/* </div> */}
-                <h3 className="p-4 text-xl font-semibold text-gray-900 max-[600px]:p-1 ">
+                <h3 className="p-4 text-xl font-semibold text-gray-900 max-[640px]:p-1 ">
                   {recipe.title}
                 </h3>
-                <div className="p-4 md:p-5 space-y-4 max-[600px]:p-1">
+                <div className="p-4 md:p-5 space-y-4 max-[640px]:p-1">
                   {activeTab === "summary" && (
                     <div>
                       <p

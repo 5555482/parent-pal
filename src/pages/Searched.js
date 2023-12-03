@@ -23,7 +23,7 @@ function Searched() {
   }, [params.search]);
 
   return (
-    <div className="m-2 grid grid-cols-4 max-[600px]:grid-cols-1 gap-4">
+    <div className="m-2 grid grid-cols-4 min-[640px]:grid-cols-2 max-[640px]:grid-cols-1 gap-4">
       {tipsData
         .filter(
           recipe =>
