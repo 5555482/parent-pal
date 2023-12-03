@@ -11,7 +11,7 @@ function App() {
       <div className="px-0 py-10 flex flex-start items-center  max-[640px]:flex-col">
         <LiaChildSolid className="text-2xl text-blue-600" />
         <Link to={"/"} className="text-lg font-fun text-blue-600">
-          Parent-Pal
+          227
         </Link>
       </div>
       <Search />
