@@ -12,9 +12,9 @@ export default function Pages() {
     <AnimatePresence mode="wait">
       <Routes location={location} key={location.pathname}>
         <Route path="/parent-pal" element={<Home />} />
-        <Route path="/place/:type" element={<Place />} />
-        <Route path="/searched/:search" element={<Searched />} />
-        <Route path="/recipe/:id" element={<Recipe />} />
+        <Route path="/parent-pal/place/:type" element={<Place />} />
+        <Route path="/parent-pal/searched/:search" element={<Searched />} />
+        <Route path="/parent-pal/recipe/:id" element={<Recipe />} />
       </Routes>
     </AnimatePresence>
   );
