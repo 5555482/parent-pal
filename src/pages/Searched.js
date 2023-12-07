@@ -38,7 +38,7 @@ function Searched() {
               key={recipe.id}
               className=" max-w-sm bg-white border border-gray-200 rounded-lg shadow "
             >
-              <Link to={"/parent-pal/recipe/" + recipe.id}>
+              <Link to={"/recipe/" + recipe.id}>
                 <img className="rounded-t-lg" src={recipe.image} alt="" />
 
                 <div className="p-5">

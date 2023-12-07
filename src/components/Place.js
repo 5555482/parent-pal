@@ -35,7 +35,7 @@ function Place() {
           .map(recipe => {
             return (
               <SplideSlide key={recipe.id}>
-                <Link to={"/parent-pal/recipe/" + recipe.id}>
+                <Link to={"/recipe/" + recipe.id}>
                   <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow ">
                     <img className="rounded-t-lg" src={recipe.image} alt="" />
 

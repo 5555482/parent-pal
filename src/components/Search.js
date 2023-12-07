@@ -9,7 +9,7 @@ function Search() {
 
   const submitHandler = e => {
     e.preventDefault();
-    navigate("/parent-pal/searched/" + input);
+    navigate("/searched/" + input);
     setInput("");
   };
   return (
