@@ -1,4 +1,3 @@
-import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import "@splidejs/react-splide/css";
 import { Link } from "react-router-dom";
@@ -8,21 +7,7 @@ import { MdOutlineArrowRight } from "react-icons/md";
 import { tipsData } from "../data";
 
 function Place() {
-  // const [cuisine, setCuisine] = useState([]);
   let params = useParams();
-
-  // const getCuisine = async name => {
-  //   const data = await fetch(
-  //     `https://api.spoonacular.com/recipes/complexSearch?apiKey=${process.env.REACT_APP_API_KEY}&cuisine=${name}`
-  //   );
-  //   const recipes = await data.json();
-  //   setCuisine(recipes.results);
-  // };
-
-  // useEffect(() => {
-  //   getCuisine(params.type);
-  //   console.log(params.type);
-  // }, [params.type]);
 
   return (
     <motion.div
@@ -45,7 +30,7 @@ function Place() {
                 key={recipe.id}
                 className=" max-w-sm bg-white border border-gray-200 rounded-lg shadow "
               >
-                <Link to={"/recipe/" + recipe.id}>
+                <Link to={"/parent-pal/recipe/" + recipe.id}>
                   <img className="rounded-t-lg" src={recipe.image} alt="" />
 
                   <div className="p-5">

@@ -1,5 +1,4 @@
 import React from "react";
-import { useEffect, useState } from "react";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
 import { Link } from "react-router-dom";
@@ -8,25 +7,6 @@ import { MdOutlineArrowRight } from "react-icons/md";
 import { tipsData } from "../data";
 
 function Place() {
-  // const [veggie, setVeggie] = useState([]);
-
-  // useEffect(() => {
-  //   getVeggie();
-  // }, []);
-
-  // const getVeggie = async () => {
-  //   const check = localStorage.getItem("veggie");
-  //   if (check) {
-  //     setVeggie(JSON.parse(check));
-  //   } else {
-  //     const api = await fetch(
-  //       `https://api.spoonacular.com/recipes/random?apiKey=${process.env.REACT_APP_API_KEY}&number=8&tags=vegetarian`
-  //     );
-  //     const data = await api.json();
-  //     localStorage.setItem("veggie", JSON.stringify(data.recipes));
-  //     setVeggie(data.recipes);
-  //   }
-  // };
   return (
     <div className="m-2">
       <h3 className="my-4">Picks by places</h3>
@@ -55,7 +35,7 @@ function Place() {
           .map(recipe => {
             return (
               <SplideSlide key={recipe.id}>
-                <Link to={"/recipe/" + recipe.id}>
+                <Link to={"/parent-pal/recipe/" + recipe.id}>
                   <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow ">
                     <img className="rounded-t-lg" src={recipe.image} alt="" />
 
