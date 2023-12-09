@@ -7,7 +7,7 @@ import { LiaChildSolid } from "react-icons/lia";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <div className="px-0 py-10 flex flex-start items-center  max-[640px]:flex-col">
         <LiaChildSolid className="text-2xl text-blue-600" />
         <Link to={"/"} className="text-lg font-fun text-blue-600">
